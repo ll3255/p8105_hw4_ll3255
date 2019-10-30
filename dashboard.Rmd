@@ -15,7 +15,8 @@ library(plotly)
 ```
 
 ```{r}
-data("nyc_airbnb")
+data("rest_inspec")
+
 set.seed(1)
 nyc_airbnb = 
   nyc_airbnb %>% 
