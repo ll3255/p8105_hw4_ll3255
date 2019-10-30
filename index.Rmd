@@ -1,6 +1,6 @@
   
 ---
-title: "Laura Lynch"
+title: "Laura Lynch's Website"
 output: 
   html_document:
     toc: true
