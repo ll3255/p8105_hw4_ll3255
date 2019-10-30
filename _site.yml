@@ -17,4 +17,4 @@ navbar:
       href: http://github.com/ll3255/
 output:
   html_document:
-    theme: journal
+    theme: flatly
