@@ -1,0 +1,27 @@
+  
+---
+title: "Laura Lynch"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Website for Laura Lynch
+
+You can learn about me [here](about.html).
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+# Let's add some links
+
+
+I often use [google](https://www.google.com) to do **data science**. 
+
+
+## let's add an image
+
+here's me:
+
+![](images/me.jpeg)
