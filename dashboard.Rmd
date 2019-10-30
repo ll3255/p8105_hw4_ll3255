@@ -62,3 +62,5 @@ nyc_airbnb %>%
   mutate(neighbourhood = fct_reorder(neighbourhood, n)) %>% 
   plot_ly(x = ~neighbourhood, y = ~n, type = "bar")
 ```
+
+#rmarkdown::render("dashboard.rmd", output_format = "flexdashboard::flex_dashboard")

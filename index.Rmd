@@ -6,21 +6,13 @@ output:
     toc: true
     toc_float: true
 ---
+#Laura Lynch
 
-# Website for Laura Lynch
-
-You can learn about me [here](about.html).
-
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-# Let's add some links
-
-
-I often use [google](https://www.google.com) to do **data science**. 
-
-
-## let's add an image
-
-here's me:
-
+Hi, my name is Laura Lynch
 ![](images/me.jpeg)
+
+You can learn more about my work experience [here](about.html).
+
+Feel free to browse my [LinkedIn](https://www.linkedin.com/in/lmlynch). 
+
+
