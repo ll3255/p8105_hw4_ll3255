@@ -1,0 +1,20 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about.html
+    - text: Examples
+      menu:
+      - text: "Plotly"
+        href: plotly.html
+      - text: "Dashboard"
+        href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<laura.lynch.m@gmail.com>
+    - icon: fa-github fa-lg
+      href: http://github.com/ll3255/
+output:
+  html_document:
+    theme: journal
