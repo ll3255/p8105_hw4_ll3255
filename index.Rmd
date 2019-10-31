@@ -6,7 +6,7 @@ output:
     toc: true
     toc_float: true
 ---
-#Welcome!
+# Welcome! 
 
 Hi, my name is Laura Lynch and I am an MPH Candidate at Mailman School or Public Helath. I am studying epidemiology with a certificate in research methods.
 
