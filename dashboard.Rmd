@@ -12,6 +12,8 @@ library(tidyverse)
 library(viridis)
 library(p8105.datasets)
 library(plotly)
+
+# rmarkdown::render("dashboard.rmd", output_format = "flexdashboard::flex_dashboard")
 ```
 
 ```{r}
@@ -28,10 +30,9 @@ food =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Visualizing Chipotle's Inspection Results Across Time
 
 ```{r}
-# scatter plot looking at Chipotle inspectrion scores across time
 food %>% 
   select(dba, inspection_date, score, grade, street) %>%
   filter(dba == "CHIPOTLE MEXICAN GRILL") %>%
@@ -39,13 +40,13 @@ food %>%
   plot_ly(x = ~inspection_date, y = ~score, type = "scatter", mode = "markers", color = ~grade, alpha = 0.5)
 ```
 
+
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Boxplot of Food Inspection Scores by Cuisine
 
 ```{r}
-# box plot of scores by cuisine
 food %>%  
   select(cuisine_description, score) %>%
   filter(cuisine_description %in% c("Brazilian", "Portugese", "American", "Creole", "Greek", "Indian", "Italian", "Japanese", "Thai", "Iranian", "Mexican", "French", "Carribean", "Chinese", "Spanish")) %>%
@@ -54,7 +55,7 @@ food %>%
           colors = "Set2")
 ```
 
-### Chart C
+### Count of Critical violations by Borough
 
 ```{r}
 # histogram of critical violations by borough
@@ -68,4 +69,3 @@ food %>%
   plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar")
 ```
 
-#rmarkdown::render("dashboard.rmd", output_format = "flexdashboard::flex_dashboard")
