@@ -18,7 +18,7 @@ library(plotly)
 set.seed(1)
 
 food = 
-rest_inspec %>%
+  rest_inspec %>% 
   janitor::clean_names() %>%
   drop_na() %>% 
   sample_n(5000)
@@ -31,12 +31,12 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-food %>%
-  group_by(camis, boro, score) %>%
-  filter(cuisine_description == "Pizza") %>%
-  count(action) %>%
-  #mutate(text_label = str_c('Grade: ', grade)) %>% 
-  plot_ly(x = ~boro, y = ~score, type = "scatter", mode = "markers", color = ~boro, alpha = 0.5)
+# scatter plot looking at Chipotle inspectrion scores across time
+food %>% 
+  select(dba, inspection_date, score, grade, street) %>%
+  filter(dba == "CHIPOTLE MEXICAN GRILL") %>%
+  mutate(text_label = str_c("Location: ", street, '\nScore: ', score)) %>% 
+  plot_ly(x = ~inspection_date, y = ~score, type = "scatter", mode = "markers", color = ~grade, alpha = 0.5)
 ```
 
 Column {data-width=350}
@@ -45,21 +45,26 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
+# box plot of scores by cuisine
 food %>%  
-  filter(cuisine_description %in% c("Brazilian", "Portugese", "American", "Creole", "Greek", "Indian", "Italian", "Japanese", "Thai", "Iranian")) %>%
+  select(cuisine_description, score) %>%
+  filter(cuisine_description %in% c("Brazilian", "Portugese", "American", "Creole", "Greek", "Indian", "Italian", "Japanese", "Thai", "Iranian", "Mexican", "French", "Carribean", "Chinese", "Spanish")) %>%
   mutate(cuisine_description = fct_reorder(cuisine_description, score)) %>% 
- plot_ly(y = ~score, color = ~cuisine_description, type = "box",
+  plot_ly(y = ~score, color = ~cuisine_description, type = "box",
           colors = "Set2")
 ```
 
 ### Chart C
 
 ```{r}
+# histogram of critical violations by borough
 food %>%  
+  select(critical_flag, boro) %>%
   filter(critical_flag == "Critical") %>%
   group_by(boro) %>%
   count(critical_flag) %>% 
-  #mutate(boro = fct_reorder(boro, n)) %>% 
+  ungroup(boro) %>%
+  mutate(boro = fct_reorder(boro, n)) %>% 
   plot_ly(x = ~boro, y = ~n, color = ~boro, type = "bar")
 ```
 
