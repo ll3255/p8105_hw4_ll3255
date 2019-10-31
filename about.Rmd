@@ -1,10 +1,112 @@
   
 ---
-title: "About Me"
+title: "Resume"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-# My name is Laura
+# Education
+
+### Columbia University Mailman School of Public Health, New York, NY               		 	         
+May 2020
+Master of Public Health, Epidemiology with certificate in Advanced Epidemiology 
+Awards: Public Health Leadership Award and Dorothy Edith Veith-DiPaolo Memorial Scholarship recipient
+
+### New York University Rory Meyers School of Nursing, New York, NY 					   
+January 2016
+Bachelor of Science, Nursing 
+Awards: Rubin Scholar, Cum Laude
+
+### Stanford University
+Bachelor of Arts, History 										         
+June 2012
+National Championship Women’s Lightweight Rowing Team 2010 and 2011			 
+
+# Research & Publications
+UNIVERSITY OF COLORADO HOSPITAL GRAND ROUNDS, March 2017 (secondary) Epic and Alaris are Talking: Patient Safety Outcomes and RN Satisfaction Research Results from UCHealth’s Pump Integration Innovation	
+
+FRONTIERS IN PUBLIC HEALTH JOURNAL, April 2016 (secondary) Factors Associated with Recent HIV Testing among Heterosexuals at High-Risk for HIV Infection in New York City	
+
+SIGMA THETA TAU 27TH INTERNATIONAL NURSING RESEARCH CONGRESS, March 2017 (primary) Rural Nepal health surveillance and care delivery: a community health case study. (poster)
+
+# Healthcare Experience
+
+### MOUNT SINAI ST. LUKE’S, NEW YORK, NY					                    
+November 2018 to present
+Cardiac Stepdown Per Diem Staff Nurse
+• Provides direct, continuous care for a specific caseload of patients; Coordinates patient care activities, based on established priorities, including teaching, rounding, counseling, and discharge planning, and directs/delegates appropriately to members of the health care team
+
+### NEW YORK PRESBYTERIAN HOSPITAL, NEW YORK, NY						                
+Summer 2018
+Cardiac-Telemetry Travel Nurse
+• Assess and evaluate patient needs using critical thinking and prioritization to implement evidence-based practice 
+• Care coordination among various medical disciplines for optimal patient outcomes
+• Experience managing high acuity vasoactive drips and acute telemetry interpretation
+
+### UNIVERSITY OF COLORADO HOSPITAL, AURORA, CO					     
+February 2016 to May 2018
+Medical-Surgical floor nurse
+• Award: UEXCEL hospital-wide service recognition 
+• Bedside monitoring and care management, implementing interdisciplinary treatments, educating patients 
+• Conducted hospital-wide research: technological quality improvement study
+• Precepted and mentored new nurses and capstone nursing students through orientation 
+• Infection Control Committee and Preceptor Council member
+
+### NEW YORK CITY DEPTARTMENT OF HEALTH & MENTAL HYGIENE, New York, NY			           
+Fall 2015 Health Research Training Program Intern 
+• Outreach to parent/guardian regarding medication administration forms and student asthma questionnaire to assess level of disease control
+• Trained to provide Open Airway for Schools student education curriculum 
+
+### BOARDROUNDS INC, New York, NY									     
+Winter 2015
+Emergency Department Concierge Intern
+• Collected patient demographics in ER with pilot medical software to allow coordination of follow-up care 
+• Used patient-centered communication to connect with individuals in a high-stress environment
+
+# Additional Experience
+
+### HARLEM PREVENTION CENTER, New York, NY								  
+Summer 2019 
+Data Management Intern
+• Quality assurance for data for ongoing HIV prevention trials; Reviewed source and iMetadata documents for accuracy and responded to quality assurance queries
+
+### STANFORD LAW SCHOOL, Stanford, CA					      
+December 2012 to December 2013
+Stewardship and Development Assistant
+• Entered and maintained an accurate database on individual gifts and drafted stewardship correspondence 
+• Assisted in the development and production of video and print media campaigns to foster alumni relations
+
+# COMMUNITY HEALTHCARE EXPERIENCE
+
+### SOUTH METRO HEALTH ALLIANCE, Littleton, CO 					   
+December 2016 to May 2018
+Board of Directors
+Goal of championing collaborative solutions for health promotion in Douglas and Arapahoe counties in Colorado
+• Lead Access to Care task force, coordinating and leading meetings to collaboratively develop new programs
+• Member of sustainability committee devising financial planning for long term sustainability of the organization
+
+### ALLIANCE HEALTH PROJECT, San Francisco, CA				             	            
+April 2013 to June 2014
+HIV Tester and Counselor
+• Used risk reduction counseling in both a standing and mobile clinic settings while providing HIV tests
+
+### STANFORD UNIVERSITY VADEN HEALTH CENTER, Stanford, CA 			 
+September 2011 to June 2014
+Birth Control Peer Education Pilot Consultant
+• Recruited student counselors, interviewed and hired student leaders, coordinated inaugural training
+
+### FACE AIDS (now Partners in Health), San Francisco, CA 				       
+January 2011 to June 2014
+Student and Alumni Leader
+• Cycled 4,000 miles raising money and awareness for HIV/AIDS with speaking engagements and media outreach
+• Selected for student leadership team traveling to Rwanda to learn from local clinics and international NGOs
+• Implemented inaugural alumni fundraising campaign designing newsletters through Vertical Response
+
+# Licensure, Skills, Languages
+
+Programs: SAS, R, SQL, QGIS, STATA
+Software: MS Office Suite including Access, EPIC, Eclipsys
+Licenses: NY State RN License, ACLS, CITI, HIPAA 
+Languages: Fluent Spanish, basic French
