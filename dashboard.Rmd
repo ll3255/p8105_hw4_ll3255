@@ -14,7 +14,6 @@ library(p8105.datasets)
 library(plotly)
 
 # rmarkdown::render("dashboard.rmd", output_format = "flexdashboard::flex_dashboard")
-# SET UP NOT WORKING
 ```
 
 ```{r}
@@ -37,9 +36,8 @@ Column {data-width=650}
 food %>% 
   select(dba, inspection_date, score, grade, street) %>%
   filter(dba == "CHIPOTLE MEXICAN GRILL") %>%
-  mutate(text_label = str_c("Location: ", street, '\nScore: ', score)) %>% 
-  # Labeling date, score and score doesn't have title
-  plot_ly(x = ~inspection_date, y = ~score, type = "scatter", mode = "markers", color = ~grade, alpha = 0.5)
+  mutate(text_label = str_c("Location: ", street, ", Grade: ", grade)) %>%
+  plot_ly(x = ~inspection_date, y = ~score, type = "scatter", mode = "markers", text = ~text_label, color = ~grade, alpha = 0.5)
 ```
 
 
